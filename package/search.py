@@ -44,9 +44,6 @@ class LoggedCriteria(Criteria):
         result = list(self._inner.elements(html, source))
         name = type(self._inner).__name__
 
-        print(f"[ {name} ] found [ {len(result)} ] items:")
-        print([{'tag': x.tag, 'score': score} for x, score in result])
-
         return result
 
 

@@ -2,10 +2,9 @@ from package import app
 
 if __name__ == '__main__':
     origin = "test_files/sample-0-origin.html"
-    button = "make-everything-ok-button"
 
     def run(other):
-        return app.run(origin, other, button)
+        return app.run(origin, other)
 
     # First case.
     x = run("test_files/sample-1-evil-gemini.html")

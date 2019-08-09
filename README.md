@@ -1,5 +1,5 @@
 ## Smart XML Analyzer
 
-Find in 'target' the element similar to the one with 'element_id' (found in 'origin').
+Find in 'target' the element similar to the one with id 'make-everything-ok-button' that can be found in 'origin', by matching its properties.
 
-./main [origin] [target] [element_id]
+./main [origin] [target]
